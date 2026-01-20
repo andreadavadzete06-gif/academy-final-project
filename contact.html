@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>კონტაქტი - გურია</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img src="images/guria.png" alt="guria" class="logo" />
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="burger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <label for="menu-toggle" class="menu-overlay"></label>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">მთავარი</a>
+            </li>
+            <li>
+              <a href="adventure.html">თავგადასავალი</a>
+            </li>
+            <li>
+              <a href="famous.html">ცნობილი ადამიანები</a>
+            </li>
+            <li>
+              <a class="active" href="contact.html">კონტაქტი</a>
+            </li>
+
+            <li class="separator">|</li>
+            <li>
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+            </li>
+            <li>
+              <a href="#" aria-label="Behance"><i class="fa-brands fa-behance"></i></a>
+            </li>
+            <li class="separator">|</li>
+            <li>
+              <a href="#" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="s-1">
+      <div class="s1-container">
+        <div class="infobox">
+          <div class="adv">დაგვიკავშირდით</div>
+          <h2 class="rn">მოგვწერეთ თქვენი შეკითხვები</h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="contact-container">
+        <div class="contact-form">
+          <h2>კონტაქტის ფორმა</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">სახელი და გვარი</label>
+              <input type="text" id="name" name="name" required placeholder="თქვენი სახელი">
+            </div>
+            <div class="form-group">
+              <label for="email">ელ-ფოსტა</label>
+              <input type="email" id="email" name="email" required placeholder="your@email.com">
+            </div>
+            <div class="form-group">
+              <label for="phone">ტელეფონი</label>
+              <input type="tel" id="phone" name="phone" placeholder="+995 XXX XXX XXX">
+            </div>
+            <div class="form-group">
+              <label for="message">შეტყობინება</label>
+              <textarea id="message" name="message" rows="5" required placeholder="თქვენი შეტყობინება..."></textarea>
+            </div>
+            <button type="submit" class="submit-btn">გაგზავნა</button>
+          </form>
+        </div>
+
+        <div class="contact-map">
+          <h2>ჩვენი მდებარეობა</h2>
+          <div class="map-wrapper">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189449.08488654434!2d41.87848045!3d41.92340015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4067864c4b05a8a1%3A0x6f3f3f3f3f3f3f3f!2sOzurgeti%2C%20Georgia!5e0!3m2!1sen!2s!4v1234567890"
+              width="100%"
+              height="450"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <div class="contact-info">
+            <div class="info-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <h3>მისამართი</h3>
+                <p>ოზურგეთი, გურია, საქართველო</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <h3>ელ-ფოსტა</h3>
+                <p>info@guria.ge</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <h3>ტელეფონი</h3>
+                <p>+995 XXX XXX XXX</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>გურიის შესახებ</h3>
+          <p>გურია - საქართველოს ისტორიული მხარე დასავლეთ საქართველოში, რომელიც გამორჩეულია თავისი ბუნებით, კულტურითა და ტრადიციებით.</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>სწრაფი ბმულები</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">მთავარი</a></li>
+            <li><a href="adventure.html">თავგადასავალი</a></li>
+            <li><a href="famous.html">ცნობილი ადამიანები</a></li>
+            <li><a href="contact.html">კონტაქტი</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>მისამართი</h3>
+          <p>ოზურგეთი, გურია<br>საქართველო</p>
+          <p class="footer-contact">ელ-ფოსტა: info@guria.ge<br>ტელეფონი: +995 xxx xxx xxx</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>გამოგვყევით</h3>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 გურია. ყველა უფლება დაცულია.</p>
+        <p class="developer">დეველოპერი: ანდრია დავაძე</p>
+      </div>
+    </footer>
+  </body>
+</html>

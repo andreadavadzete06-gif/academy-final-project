@@ -1,8 +1,371 @@
-@media  (max-width: 800px) {
-  .card {
-    width: 100%;
-    height: auto;
-   
+@media (max-width: 767px) {
+  header {
+    height: 70px;
+    padding: 0;
+    position: fixed;
   }
 
+  .header-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: relative;
+  }
+
+  .s-1 {
+    padding-top: 70px;
+    min-height: 500px;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .burger-menu {
+    display: flex;
+  }
+
+  .menu-overlay {
+    display: block;
+  }
+
+  nav {
+    position: fixed;
+    top: 70px;
+    right: -100%;
+    width: 70%;
+    max-width: 300px;
+    height: calc(100vh - 70px);
+    background-color: rgba(0, 0, 0, 0.95);
+    transition: right 0.3s ease;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+
+  .menu-toggle:checked ~ nav {
+    right: 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0;
+    align-items: stretch;
+    text-align: left;
+    padding: 20px 0;
+  }
+
+  nav ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+
+  nav ul li.separator,
+  nav ul li:has(i) {
+    display: none;
+  }
+
+  .s-3 {
+    min-height: 500px;
+  }
+
+  .s1-container,
+  .s3-container {
+    padding: 150px 20px 0;
+  }
+
+  .infobox,
+  .infobox-3 {
+    max-width: 100%;
+  }
+
+  .adv,
+  .guriasport {
+    padding: 6px 12px;
+    margin-bottom: 15px;
+  }
+
+  .rn,
+  .leloburti {
+    font-size: 24px;
+  }
+
+  .sport-description {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .popular {
+    font-size: 28px;
+    margin: 0 0 30px 0;
+    padding: 0;
+  }
+
+  .s-2 {
+    margin-bottom: 40px;
+    padding: 60px 0 20px;
+  }
+
+  .s-4 {
+    margin-bottom: 40px;
+    padding: 20px 0;
+  }
+
+  .s2-container,
+  .s4-container {
+    padding: 0 20px;
+  }
+
+  .cards-wrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .cards-wrapper2 {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .card,
+  .card2 {
+    width: 100%;
+    min-width: auto;
+    gap: 12px;
+  }
+
+  .card h2,
+  .card2 h2 {
+    margin: 0 0 8px 0;
+  }
+
+  .extreme,
+  .teatri,
+  .fishmet,
+  .gomi,
+  .bakhmaro,
+  .cixisferdi {
+    height: 180px;
+  }
+
+  .fishing,
+  .kayaking,
+  .hiking {
+    height: 200px;
+  }
+
+  footer {
+    padding: 40px 0 0;
+    margin-top: 40px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .footer-section {
+    min-width: auto;
+    text-align: center;
+  }
+
+  .footer-section h3 {
+    text-align: center;
+  }
+
+  .footer-links {
+    text-align: center;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+
+  .footer-bottom {
+    padding: 15px;
+    margin-top: 30px;
+  }
+
+  .contact-section {
+    padding: 40px 0;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 15px;
+  }
+
+  .contact-form,
+  .contact-map {
+    width: 100%;
+    padding: 25px 20px;
+  }
+
+  .contact-form h2,
+  .contact-map h2 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+
+  .map-wrapper iframe {
+    height: 300px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header-container {
+    padding: 0 20px;
+  }
+
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .menu-overlay {
+    display: none;
+  }
+
+  nav ul {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav ul li i {
+    font-size: 16px;
+  }
+
+  .s-1,
+  .s-3 {
+    min-height: 600px;
+  }
+
+  .s1-container,
+  .s3-container {
+    padding: 200px 20px 0;
+  }
+
+  .adv,
+  .guriasport {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+  }
+
+  .rn,
+  .leloburti {
+    font-size: 30px;
+  }
+
+  .sport-description {
+    font-size: 17px;
+  }
+
+  .popular {
+    font-size: 32px;
+    margin: 0 0 40px 0;
+  }
+
+  .s-2 {
+    margin-bottom: 60px;
+    padding: 80px 0 30px;
+  }
+
+  .s-4 {
+    margin-bottom: 60px;
+    padding: 30px 0;
+  }
+
+  .cards-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .cards-wrapper2 {
+    gap: 25px;
+  }
+
+  .card2 {
+    width: calc(50% - 15px);
+    min-width: auto;
+  }
+
+  footer {
+    padding: 50px 0 0;
+    margin-top: 60px;
+  }
+
+  .footer-container {
+    gap: 30px;
+  }
+
+  .footer-section {
+    min-width: 220px;
+    flex: 1 1 calc(50% - 30px);
+  }
+
+  .footer-bottom {
+    margin-top: 35px;
+  }
+
+  .contact-section {
+    padding: 60px 0;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .contact-form,
+  .contact-map {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1300px) {
+  .s1-container,
+  .s3-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .s2-container,
+  .s4-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .cards-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+
+  .cards-wrapper2 {
+    gap: 25px;
+  }
+
+  .card2 {
+    width: calc(33.333% - 18px);
+  }
+}
+
+@media (max-width: 1024px) {
+  nav ul li:nth-child(n+5):nth-child(-n+11) {
+    display: none;
+  }
 }

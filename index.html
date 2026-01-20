@@ -3,78 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com/"
-      crossorigin
-      <link
-      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-      <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
-      rel="stylesheet"
-    />
+    <title>გურია - Guria Region</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   </head>
   <body>
     <header>
       <div class="header-container">
         <img src="images/guria.png" alt="guria" class="logo" />
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="burger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <label for="menu-toggle" class="menu-overlay"></label>
         <nav>
           <ul>
             <li>
-              <a class="active" href="">Main</a>
+              <a class="active" href="index.html">მთავარი</a>
             </li>
             <li>
-              <a href="../pages/adventure.html">Adventure</a>
+              <a href="adventure.html">თავგადასავალი</a>
             </li>
             <li>
-              <a href="../pages/famous.html">Famous People</a>
+              <a href="famous.html">ცნობილი ადამიანები</a>
+            </li>
+            <li>
+              <a href="contact.html">კონტაქტი</a>
             </li>
 
+            <li class="separator">|</li>
             <li>
-              <a href="../pages/contact.html">Contact</a>
-            </li>
-
-            <li>
-              <img src="images/Line 8.svg" alt="" />
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-              <img src="images/facebook (1).svg" alt="" />
+              <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
             </li>
             <li>
-              <img src="images/twitter.svg" alt="" />
+              <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
             </li>
             <li>
-              <img src="images/youtube.png" alt="" />
+              <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
             </li>
             <li>
-              <img src="images/pinterest.png" alt="" />
+              <a href="#" aria-label="Behance"><i class="fa-brands fa-behance"></i></a>
             </li>
+            <li class="separator">|</li>
             <li>
-              <img src="images/behance.png" alt="" />
-            </li>
-            <li>
-              <img src="images/Line 8.svg" alt="" />
-            </li>
-            <li>
-              <img src="images/Search Icon.svg" alt="" />
+              <a href="#" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></a>
             </li>
           </ul>
         </nav>
@@ -83,132 +68,115 @@
     <section class="s-1">
       <div class="s1-container">
         <div class="infobox">
-          <div class="adv">იმოგზაურე გურიაში</div>
-          <h2 class="rn">ეს არის ვებ გვერდი გურიის რეგიონის შესახებ</h2>
+          <div class="adv">შენი თავგადასავალი იწყება აქ</div>
+          <h2 class="rn">აღმოაჩინე დაუვიწყარი გურია</h2>
         </div>
       </div>
     </section>
-    <div>
-      <h2 class="popular">popular topics</h2>
-    </div>
     <section class="s-2">
       <div class="s2-container">
+        <h2 class="popular">პოპულარული თემები</h2>
         <div class="cards-wrapper">
-          <div class="card">
-            <img class="fishmet" src="images/fishmet.jpeg" alt="">
-            <p>გურიაში მეთევზეების მფარველად ითვლებოდა ზებედე – გალილეელი მეთევზე, რომელმაც უყოყმანოდ გააყოლა მაცხოვარს თავისი შვილები იაკობი და იოანე<a href="https://guriismoambe.com/archives/95442">...</a></p>
-           
-          </div>
-          <div class="card">
-            <img class="teatri" src="images/teatri.webp" alt="">
-            <p>ოზურგეთის დრამატული თეატრი — სახელმწიფო დრამატული თეატრი ოზურგეთში, რომელიც ატარებს ალექსანდრე წუწუნავას სახელს<a href="https://ka.wikipedia.org/wiki/%E1%83%9D%E1%83%96%E1%83%A3%E1%83%A0%E1%83%92%E1%83%94%E1%83%97%E1%83%98%E1%83%A1_%E1%83%93%E1%83%A0%E1%83%90%E1%83%9B%E1%83%90%E1%83%A2%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%97%E1%83%94%E1%83%90%E1%83%A2%E1%83%A0%E1%83%98">...</a></p>
-          </div>
-          <div class="card">
-            <a href="../pages/adventure.html">
-              <img class="extreme" src="images/extreme.avif" alt="" />
-            </a>
+          <a href="https://guriismoambe.com/archives/95442" class="card" target="_blank" rel="noopener noreferrer">
+            <img class="fishmet" src="images/fishmet.jpeg" alt="თევზაობის ტრადიცია">
+            <p>გურიაში მეთევზეების მფარველად ითვლებოდა ზებედე – გალილეელი მეთევზე, რომელმაც უყოყმანოდ გააყოლა მაცხოვარს თავისი შვილები იაკობი და იოანე... <span class="read-more">იხილეთ მეტი</span></p>
+          </a>
+          <a href="https://ka.wikipedia.org/wiki/%E1%83%9D%E1%83%96%E1%83%A3%E1%83%A0%E1%83%92%E1%83%94%E1%83%97%E1%83%98%E1%83%A1_%E1%83%93%E1%83%A0%E1%83%90%E1%83%9B%E1%83%90%E1%83%A2%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%97%E1%83%94%E1%83%90%E1%83%A2%E1%83%A0%E1%83%98" class="card" target="_blank" rel="noopener noreferrer">
+            <img class="teatri" src="images/teatri.webp" alt="ოზურგეთის თეატრი">
+            <p>ოზურგეთის დრამატული თეატრი — სახელმწიფო დრამატული თეატრი ოზურგეთში, რომელიც ატარებს ალექსანდრე წუწუნავას სახელს... <span class="read-more">იხილეთ მეტი</span></p>
+          </a>
+          <a href="adventure.html" class="card" target="_blank" rel="noopener noreferrer">
+            <img class="extreme" src="images/extreme.avif" alt="ექსტრემალური სპორტი" />
             <h2 class="m-extreme">ექსტრიმი გურიაში</h2>
-            <p>
-              მაშინ როცა ხინოსა და გომის მთებზე თოვლი დნება და გიჟმაჟ მდინარე
-              ბჟუჟში წყლის
-              <a
-                href="https://www.amerikiskhma.com/a/georgia-guria-bzhuzha-race-extreme-kayaking-european-cup-2018/4383323.html"
-                >...</a
-              >
-            </p>
-          </div>
-          <div class="card">
-            <img class="gomi" src="images/Gomismta.jpeg" alt="" />
-
+            <p>მაშინ როცა ხინოსა და გომის მთებზე თოვლი დნება და გიჟმაჟ მდინარე ბჟუჟში წყლის... <span class="read-more">იხილეთ მეტი</span></p>
+          </a>
+          <a href="https://ka.wikipedia.org/wiki/%E1%83%92%E1%83%9D%E1%83%9B%E1%83%98%E1%83%A1%E1%83%9B%E1%83%97%E1%83%90" class="card" target="_blank" rel="noopener noreferrer">
+            <img class="gomi" src="images/Gomismta.jpeg" alt="გომის მთა" />
             <h2 class="m-gomi">გომის მთა</h2>
-
-            <p>
-              გომისმთა — დაბა[1] და მაღალმთიანი კლიმატური საზაფხულო კურორტი
-              <a
-                href="https://ka.wikipedia.org/wiki/%E1%83%92%E1%83%9D%E1%83%9B%E1%83%98%E1%83%A1%E1%83%9B%E1%83%97%E1%83%90"
-                >...</a
-              >
-            </p>
-          </div>
-          <div class="card">
-            <img class="bakhmaro" src="images/bakhmaro.jpg" alt="" />
+            <p>გომისმთა — დაბა და მაღალმთიანი კლიმატური საზაფხულო კურორტი... <span class="read-more">იხილეთ მეტი</span></p>
+          </a>
+          <a href="https://ka.wikipedia.org/wiki/%E1%83%91%E1%83%90%E1%83%AE%E1%83%9B%E1%83%90%E1%83%A0%E1%83%9D" class="card" target="_blank" rel="noopener noreferrer">
+            <img class="bakhmaro" src="images/bakhmaro.jpg" alt="ბახმარო" />
             <h2 class="m-bakhmaro">ბახმარო</h2>
-            <p>
-              ბახმარო — დაბა და კურორტი გურიაში, ჩოხატაურის მუნიციპალიტეტში.
-              ბახმარო
-              <a
-                href="https://ka.wikipedia.org/wiki/%E1%83%91%E1%83%90%E1%83%AE%E1%83%9B%E1%83%90%E1%83%A0%E1%83%9D"
-                >...</a
-              >
-            </p>
-          </div>
-
-          <div class="card">
-            <img class="cixisferdi" src="images/Tsikhe_Church.jpg" alt="" />
+            <p>ბახმარო — დაბა და კურორტი გურიაში, ჩოხატაურის მუნიციპალიტეტში. ბახმარო... <span class="read-more">იხილეთ მეტი</span></p>
+          </a>
+          <a href="https://ka.wikipedia.org/wiki/%E1%83%AA%E1%83%98%E1%83%AE%E1%83%98%E1%83%A1%E1%83%A4%E1%83%94%E1%83%A0%E1%83%93%E1%83%98" class="card" target="_blank" rel="noopener noreferrer">
+            <img class="cixisferdi" src="images/Tsikhe_Church.jpg" alt="ციხისფერდი" />
             <h2 class="s-cixisferdi">ციხისფერდი</h2>
-            <p>
-              ციხისფერდი — სოფელი საქართველოში, ოზურგეთის მუნიციპალიტეტში,
-              გურიანთის
-              <a
-                href="https://ka.wikipedia.org/wiki/%E1%83%AA%E1%83%98%E1%83%AE%E1%83%98%E1%83%A1%E1%83%A4%E1%83%94%E1%83%A0%E1%83%93%E1%83%98"
-                >...</a
-              >
-            </p>
-          </div>
+            <p>ციხისფერდი — სოფელი საქართველოში, ოზურგეთის მუნიციპალიტეტში, გურიანთის... <span class="read-more">იხილეთ მეტი</span></p>
+          </a>
         </div>
       </div>
     </section>
-  </body>
-  <main>
     <section class="s-3">
       <div class="s3-container">
         <div class="infobox-3">
           <div class="guriasport">სპორტი გურიაში</div>
-          <h2 class="leloburti">პოპულარული სპორტი გურიაში</h2>
+          <h2 class="leloburti">ლელობურთი - გურიის ტრადიციული სპორტი</h2>
+          <p class="sport-description">ლელო არის ძველი ქართული ტრადიციული სპორტული თამაში, რომელიც განსაკუთრებით პოპულარულია გურიაში. ეს არის რაგბის მსგავსი თამაში, სადაც ორი გუნდი ებრძვის ბურთის მოპოვებას. ლელო წარმოადგენს ძალის, გამძლეობისა და გუნდური სულისკვეთების სიმბოლოს.</p>
         </div>
       </div>
     </section>
     <section class="s-4">
       <div class="s4-container">
         <div class="cards-wrapper2">
-          <div class="card2">
-            <img class="fishing" src="images/fishing.webp" alt="" />
+          <a href="https://georgiantravelguide.com/ka/sakartvelo/guria/tevzoba-guria/" class="card2" target="_blank" rel="noopener noreferrer">
+            <img class="fishing" src="images/fishing.webp" alt="თევზაობა" />
             <h2 class="m-fishing">თევზაობა</h2>
-            <p>
-              გურიაში თევზაობა საკმაოდ პოპულარული საქმიანობაა, განსაკუთრებით
-              მდინარეებში
-              <a
-                href="https://georgiantravelguide.com/ka/sakartvelo/guria/tevzoba-guria/"
-                >...</a
-              >
-            </p>
-          </div>
-          <div class="card2">
-            <img class="kayaking" src="images/kaiaking.webp" alt="" />
+            <p>გურიაში თევზაობა საკმაოდ პოპულარული საქმიანობაა, განსაკუთრებით მდინარეებში... <span class="read-more">იხილეთ მეტი</span></p>
+          </a>
+          <a href="https://georgiantravelguide.com/ka/sakartvelo/guria/kayaking-guria/" class="card2" target="_blank" rel="noopener noreferrer">
+            <img class="kayaking" src="images/kaiaking.webp" alt="კაიაკინგი" />
             <h2 class="m-kayaking">კაიაკინგი</h2>
-            <p>
-              კაიაკინგი გურიაში არის ერთ-ერთი ყველაზე პოპულარული და
-              თავგადასავლური სპორტი,
-              <a
-                href="https://georgiantravelguide.com/ka/sakartvelo/guria/kayaking-guria/"
-                >...</a
-              >
-            </p>
-          </div>
-          <div class="card2">
-            <img class="hiking" src="images/mountwalk.webp" alt="" />
+            <p>კაიაკინგი გურიაში არის ერთ-ერთი ყველაზე პოპულარული და თავგადასავლური სპორტი... <span class="read-more">იხილეთ მეტი</span></p>
+          </a>
+          <a href="https://georgiantravelguide.com/ka/sakartvelo/guria/mountain-hiking-guria/" class="card2" target="_blank" rel="noopener noreferrer">
+            <img class="hiking" src="images/mountwalk.webp" alt="მთის სეირნობა" />
             <h2 class="m-hiking">მთის სეირნობა</h2>
-            <p>
-              გურიის მთიანი რეგიონები შესანიშნავი ადგილია მთის სეირნობისთვის. აქ
-              შეგიძლიათ
-              <a
-                href="https://georgiantravelguide.com/ka/sakartvelo/guria/mountain-hiking-guria/"
-                >...</a
-              >
-            </p>
-          </div>
+            <p>გურიის მთიანი რეგიონები შესანიშნავი ადგილია მთის სეირნობისთვის. აქ შეგიძლიათ... <span class="read-more">იხილეთ მეტი</span></p>
+          </a>
         </div>
       </div>
     </section>
-  </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>გურიის შესახებ</h3>
+          <p>გურია - საქართველოს ისტორიული მხარე დასავლეთ საქართველოში, რომელიც გამორჩეულია თავისი ბუნებით, კულტურითა და ტრადიციებით.</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>სწრაფი ბმულები</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">მთავარი</a></li>
+            <li><a href="adventure.html">თავგადასავალი</a></li>
+            <li><a href="famous.html">ცნობილი ადამიანები</a></li>
+            <li><a href="contact.html">კონტაქტი</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>მისამართი</h3>
+          <p>ოზურგეთი, გურია<br>საქართველო</p>
+          <p class="footer-contact">ელ-ფოსტა: info@guria.ge<br>ტელეფონი: +995 xxx xxx xxx</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>გამოგვყევით</h3>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 გურია. ყველა უფლება დაცულია.</p>
+        <p class="developer">დეველოპერი: ანდრია დავაძე</p>
+      </div>
+    </footer>
+  </body>
 </html>

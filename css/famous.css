@@ -1,0 +1,198 @@
+header {
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.header-container {
+  max-width: 1300px;
+  width: 100%;
+  padding: 0 12px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+}
+ul {
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: #e5e5e5;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.active {
+  color: ;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.s-1 {
+  height: 800px;
+  background-image: url("../images/gomismta.jpg");
+  background-color: aqua;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.s1-container {
+  width: 1300px;
+  margin: 0 auto;
+  padding-top: 315px;
+}
+
+.infobox {
+  width: 530px;
+}
+.adv {
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 77px;
+  height: 22px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  background: rgba(255, 255, 255, 0.15);
+  margin-bottom: 15px;
+  color: black;
+}
+.rn {
+  color: #fff;
+  font-family: Lora;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: black;
+}
+.popular {
+  color: #495057;
+  font-family: Lora;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 990px;
+  margin-top: 150px;
+}
+.s-2 {
+  margin-bottom: 300px;
+}
+
+.s2-container {
+  width: 1230px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.left-block {
+  width: 235px;
+}
+.cards-wrapper {
+  width: 1440px;
+  margin: 0 auto;
+  width: 1440px;
+  height: 1000px;
+
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid green; */
+}
+
+.nodard {
+  border-radius: 5px;
+
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  width: 310px;
+  height: 280px;
+
+  padding: 15px 10px;
+  gap: 10px;
+}
+.anak {
+  border-radius: 5px;
+  width: 100%;
+
+  height: 100%;
+}
+.tarielw {
+  border-radius: 5px;
+
+  width: 100%;
+  height: 100%;
+}
+
+.vaxtangw {
+  border-radius: 5px;
+
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+h2 {
+  margin-bottom: 20px;
+  color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+.guria {
+  width: 100%;
+  height: 195px;
+  border-radius: 2%;
+}
+.dasavleti {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px 0;
+}
+.h-guria {
+  border-radius: 40%;
+  width: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.p-guria {
+  text-align: center;
+  padding: 5px 10px;
+}
